@@ -2,14 +2,41 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Obesity by Demographics</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Obesity Narrative Visualization</title>
   <link rel="stylesheet" href="style.css" />
   <script src="https://d3js.org/d3.v7.min.js"></script>
 </head>
 <body>
-  <h1>2023 Obesity by Demographics</h1>
-  <div id="chart"></div>
+  <div class="container">
+    <h1>Obesity Rates in the U.S. (2023)</h1>
+
+    <!-- Intro narrative -->
+    <p class="summary">
+      Obesity is a major public health issue in the United States, affecting millions across all demographics.
+      In 2023, about 1 in 3 adults were classified as obese. The burden of obesity varies significantly across age,
+      sex, race/ethnicity, education, and region. This narrative visualization walks you through key breakdowns before
+      allowing you to explore on your own.
+    </p>
+
+    <!-- Buttons to switch scenes -->
+    <div id="buttons">
+      <button onclick="showScene('Overall')">Overall</button>
+      <button onclick="showScene('Sex')">Sex</button>
+      <button onclick="showScene('Age')">Age</button>
+      <button onclick="showScene('Race/Ethnicity')">Race/Ethnicity</button>
+      <button onclick="showScene('Education')">Education</button>
+      <button onclick="showScene('Region')">Region</button>
+      <button onclick="showScene('Summary')">Summary</button>
+    </div>
+
+    <!-- Chart container -->
+    <div id="chart"></div>
+
+    <!-- Annotation -->
+    <p id="annotation"></p>
+  </div>
+
   <script src="script.js"></script>
 </body>
 </html>
