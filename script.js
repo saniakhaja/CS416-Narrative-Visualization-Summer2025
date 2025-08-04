@@ -2,7 +2,7 @@ const annotations = {
     Overall: "The national obesity rate in 2023 was 32.8%.",
     Sex: "Obesity rates are slightly higher among women (33.5%) compared to men (32.1%).",
     Age: "Obesity increases with age, peaking in the 45-54 range (39.2%).",
-    "Race/Ethnicity": "Highest obesity rates occur among Black and AI/AN populations, with Asians having the lowest.",
+    "Race/Ethnicity": "Highest obesity rates occur among Black and American Indian/Alaska Native populations, with Asians having the lowest.",
     Education: "Obesity is inversely related to education level, with college grads having the lowest rate (27.1%).",
     Region: "Midwest and South show higher obesity rates than Northeast and West.",
     Summary: "Comparing across all demographics shows patterns of inequality in obesity prevalence.",
